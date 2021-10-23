@@ -33,8 +33,8 @@ scripting language:
 : title = (t, r, i) => `${r["name"]}, the ${r["job"]}`
 ```
 
-This should create a new column called `filled` using the function as a rule.
-This function should have 3 parameters: `t` is the whole table, `r` is the
+This should create a new column called `title` using the given function as a
+rule. This function should have 3 parameters: `t` is the whole table, `r` is the
 current row, and `i` is the index of the current row.
 
 Extending this table should yield this result:
